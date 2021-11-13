@@ -1,0 +1,19 @@
+{
+  "name": "audio-stream-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "Jack Stringer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gstreamer-superficial": "^1.7.3",
+    "music-metadata": "^7.11.4",
+    "rtsp-client": "^1.4.5",
+    "sqlite3": "^5.0.2",
+    "ws": "^8.2.3"
+  }
+}
