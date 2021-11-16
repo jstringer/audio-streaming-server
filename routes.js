@@ -13,7 +13,7 @@ const db = new sqlite3.Database('./db/tracks.db');
 //GET a single track by it's name
 streamingRoute.get('/:track', (req, res) => {
   res.set('content-type', 'audio/mp3');
-  res.set('accept-ranges', 'bytes'); 
+  res.set('accept-ranges', 'bytes');
 
   //Select a track by its name from the database
   db.get(`SELECT name FROM tracks WHERE name = ?`, [req.params.track], (err, row) => {
