@@ -11,10 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-ws": "^5.0.2",
     "music-metadata": "^7.11.4",
-    "rtsp-client": "^1.4.5",
-    "socket.io": "^4.3.2",
     "sqlite3": "^5.0.2",
     "ws": "^8.2.3"
   }
