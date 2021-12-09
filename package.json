@@ -1,0 +1,18 @@
+{
+  "name": "audio-stream-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "npm run dev"
+  },
+  "author": "Jack Stringer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "music-metadata": "^7.11.4",
+    "sqlite3": "^5.0.2",
+    "ws": "^8.2.3"
+  }
+}
