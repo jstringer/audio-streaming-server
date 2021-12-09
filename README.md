@@ -18,4 +18,5 @@ visuals. The project includes a small UI, populated with the metadata from the W
 
 ## To Do
 - Add a POST endpoint to allow for the uploading of audio tracks. This route should also parse metadata from the track and add it to the database to be sent over the WebSocket server in real time.
+- Currently the audio files are stored right here in the project repository for testing purposes - they should be moved to a CDN or other remote file storage solution.
 - Add a Dockerfile to containerize the streaming application.
